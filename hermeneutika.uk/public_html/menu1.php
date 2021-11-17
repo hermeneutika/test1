@@ -43,7 +43,22 @@
 </li>
 
       <li><a href="#" class="nav-active">Sciences</a>
+      
+        
+      
+
         <ul>
+
+
+        <li><a href="#">fusion</a>
+<ul>
+<li><a href="https://www.iter.org/">fusion website</a></li>
+<li><a href="#">engineering issues</a></li>
+
+</ul>
+</li>
+
+
           <li><a href="#">Great courses</a>
           <ul>
           <li><a href="#">building a republic of virtue</a></li>
@@ -64,7 +79,7 @@
 </ul>
 </li>
 
-          <li><a href="#" class="nav-active">Biology</a>
+          <li><a href="#">Biology</a>
           <ul>
             <li><a href="#">PCR testing</a></li>
             <li><a href="#">Evolution</a></li>
