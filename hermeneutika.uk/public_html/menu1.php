@@ -8,9 +8,15 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
-          <li><a href="#">hermeneutics</a></li>
-          <li>
-            <a href="#">Scriptures</a>
+          <li><a href="#">Just war theory</a></li>
+          <li><a href="#">The Reformation</a></li>
+          <li><a href="#">hermeneutics</a>
+          <ul>
+          <li><a href="#">interpretation by analog</a></li>
+          <li><a href="#">literal interpretation</a></li>
+</ul>
+</li>
+          <li><a href="#">Scriptures</a>
             <ul>
               <li><a href="rev1.php">Revelation</a></li>
               <li><a href="#">Exekiel</a></li>
@@ -68,7 +74,16 @@
           <li>
             <a href="#">Open University</a>
             <ul>
-              <li><a href="#">Web design</a></li>
+              <li><a href="#">Web design</a>
+              <ul>
+              <li><a href="#">client side</a></li>
+              <li><a href="#">server side</a></li>
+              <li><a href="#">web applications design develop manage</a></li>
+              <li><a href="#">design and the web</a></li>
+              <li><a href="#">databases within website design</a></li>
+              <li><a href="#">Web server management</a></li>
+</ul>
+</li>
               <li><a href="#">Networking</a></li>
               <li><a href="#">relational databases</a></li>
             </ul>
@@ -89,7 +104,11 @@
 </li>
         </ul>
       </li>
-      <li><a href="#">Misc</a></li>
+      <li><a href="#">Work!</a>
+    <ul>
+    <li><a href="cv.php">the cv</a></li>
+</ul>
+    </li>
       <li><a href="index.php">Home</a></li>
       <li><a href="#">Videos</a>
       <ul>
