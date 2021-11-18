@@ -104,7 +104,7 @@
 </li>
         </ul>
       </li>
-      <li><a href="#">Work!</a>
+      <li><a href="#">Work</a>
     <ul>
     <li><a href="cv.php">the cv</a></li>
 </ul>

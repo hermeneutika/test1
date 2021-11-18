@@ -11,26 +11,8 @@
 </head>
 <body>
 
+<?php include ("menu1.php"); ?> 
+<h1 style=text-align:center;>Michael David Falconer's CV</h1>
 
-<br>
-<?php
-  include ("menu1.php");
-// Store the file name into variable
-$file = 'cv1.pdf';
-$filename = 'cv1.pdf';
-  
-// Header content type
-header('Content-type: application/pdf');
-  
-header('Content-Disposition: inline; filename="' . $filename . '"');
-  
-header('Content-Transfer-Encoding: binary');
-  
-header('Accept-Ranges: bytes');
-  
-// Read the file
-@readfile($file);
-  
-?>
 </body>
 </html>
