@@ -107,6 +107,7 @@
       <li><a href="#">Work</a>
     <ul>
     <li><a href="cv.php">the cv</a></li>
+    <li><a href="enter1.php">Data entry</a></li>
 </ul>
     </li>
       <li><a href="index.php">Home</a></li>
