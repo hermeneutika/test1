@@ -5,6 +5,14 @@
   <nav>
     <ul class="nav-menu nav-center">
       <li>
+    <a href="#" class="nav-active">Decisions</a>
+    <ul>
+    <li><a href="#">Theory</a></li>
+    <li><a href="decide1.php">Videos</a></li>
+  
+</ul>
+</li>
+      <li>
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
