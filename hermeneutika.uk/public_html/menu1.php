@@ -7,7 +7,7 @@
       <li>
     <a href="#" class="nav-active">Decisions</a>
     <ul>
-    <li><a href="#">Theory</a></li>
+    <li><a href="decide2.php">Theory</a></li>
     <li><a href="decide1.php">Videos</a></li>
   
 </ul>
@@ -16,13 +16,6 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
-        <li><a href="#">Prayer</a>
-      <ul>
-      <li><a href="pray1.php">Prayer and the Word</a></li>
-</ul>
-      
-      
-      </li>
           <li><a href="#">Just war theory</a></li>
           <li><a href="#">The Reformation</a></li>
           <li><a href="#">hermeneutics</a>
@@ -40,6 +33,7 @@
           </li>
           <li><a href="#">Sermons</a></li>
           <li><a href="#">Doctrine and Dogma</a></li>
+          <li><a href="pray1.php">Prayer</a></li>
         </ul>
       </li>
 

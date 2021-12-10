@@ -10,8 +10,8 @@
   <title>Prayer and the Word</title>
 </head>
 <body>
-<?php include ("menu1.php"); ?>  
+
 <?php include ("pray1.txt"); ?>  
-  
+  <?php include ("menu1.php"); ?>  
 </body>
 </html>
