@@ -16,6 +16,7 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
+        <li><a href="theodicy1.php">Theodicy</a></li>
           <li><a href="#">Just war theory</a></li>
           <li><a href="#">The Reformation</a></li>
           <li><a href="#">hermeneutics</a>
@@ -64,7 +65,7 @@
 
         <ul>
 
-
+        <li><a href="drugs1.php">drugs</a></li>
         <li><a href="#">fusion</a>
 <ul>
 <li><a href="https://www.iter.org/">fusion website</a></li>
@@ -113,6 +114,17 @@
 </li>
         </ul>
       </li>
+      <li><a href="#">News</a>
+    <ul>
+      <li><a href="#">Ukraine</a></li>
+      <li><a href="#">baldwin</a></li>
+      <li><a href="#">Sudan</a></li>
+      <li><a href="#">international law</a></li>
+</ul>
+</li>
+    
+    
+    </li>
       <li><a href="#">Work</a>
     <ul>
     <li><a href="cv.php">the cv</a></li>
