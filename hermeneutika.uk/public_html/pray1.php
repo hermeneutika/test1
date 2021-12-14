@@ -11,7 +11,8 @@
 </head>
 <body>
 
-<?php include ("pray1.txt"); ?>  
+
   <?php include ("menu1.php"); ?>  
+  <?php include ("pray1.txt"); ?>  
 </body>
 </html>

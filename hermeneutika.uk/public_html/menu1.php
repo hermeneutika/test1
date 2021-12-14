@@ -3,7 +3,8 @@
   <h3>hermeneutika's Home Pages</h3>
 
   <nav>
-    <ul class="nav-menu nav-center">
+    <!--<ul class="nav-menu nav-center"> -->
+    <ul class="nav-menu nav-vertical">
       <li>
     <a href="#" class="nav-active">Decisions</a>
     <ul>
@@ -22,7 +23,7 @@
           <li><a href="#">hermeneutics</a>
           <ul>
           <li><a href="#">interpretation by analog</a></li>
-          <li><a href="#">literal interpretation</a></li>
+          <li><a href="lit1.php">literal interpretation</a></li>
 </ul>
 </li>
           <li><a href="#">Scriptures</a>
@@ -77,7 +78,7 @@
 
           <li><a href="#">Great courses</a>
           <ul>
-          <li><a href="#">building a republic of virtue</a></li>
+          <li><a href="virtue1.php">building a republic of virtue</a></li>
           <li><a href="#">Philosophy of science</a></li>
 </ul>
 </li>
