@@ -27,20 +27,20 @@ if (!$conn) {
 }
 
 $sql = "INSERT INTO cv (one,two,three,four)
-VALUES ('John', 'Doe', 'john@example.com', 'one')";
+VALUES ('John', 'Doe', 'john@example.com', 'test')";
 
 if (mysqli_query($conn, $sql)) {
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-$sql = "SELECT one, two, three FROM cv";
+$sql = "SELECT one, two, three,four FROM cv";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
   // output data of each row
   while($row = mysqli_fetch_assoc($result)) {
-    echo "id: " . $row["one"]. " - Name: " . $row["two"]. " " . $row["three"]. "<br>";
+    echo "id: " . $row["one"]. " - Name: " . $row["two"]. " " . $row["three"]. $row["four"]. "<br>";
   }
 } else {
   echo "0 results";

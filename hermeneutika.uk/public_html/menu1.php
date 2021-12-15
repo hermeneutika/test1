@@ -18,6 +18,7 @@
         <a href="#" class="nav-active">Bible</a>
         <ul>
         <li><a href="theodicy1.php">Theodicy</a></li>
+        <li><a href="display1.php">Bible display</a></li>
           <li><a href="#">Just war theory</a></li>
           <li><a href="#">The Reformation</a></li>
           <li><a href="#">hermeneutics</a>
