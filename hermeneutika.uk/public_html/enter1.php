@@ -12,21 +12,11 @@
 <body>
   
   <?php include ("menu1.php"); ?> 
+  <?php include ("conn.php"); ?> 
   <p>data entry</p>
   <?php
-$servername = "localhost";
-$username = "michael";
-$password = "A7ndromeda!1";
-$dbname = "cv1";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
-
-$sql = "INSERT INTO cv (one,two,three,four)
+$sql = "INSERT INTO cv1 (one,two,three,four)
 VALUES ('John', 'Doe', 'john@example.com', 'test')";
 
 if (mysqli_query($conn, $sql)) {
@@ -34,7 +24,7 @@ if (mysqli_query($conn, $sql)) {
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-$sql = "SELECT one, two, three,four FROM cv";
+$sql = "SELECT one, two, three,four FROM cv1";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
