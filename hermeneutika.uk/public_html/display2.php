@@ -21,9 +21,12 @@ echo "book=".$book ."chapter=".$chapt. "verse=".$verse;
 $sql = "select * from bible";
 $result = mysqli_query($conn, $sql);
 
-while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { 
+echo var_dump($result);
+/* while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { 
+  while ($row = $result->fetch_assoc()) {
     echo $row['text'].'<br>'; 
 }
+*/
 ?>
 
 <h1>this is a test</h1>
