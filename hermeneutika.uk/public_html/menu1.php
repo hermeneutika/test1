@@ -6,7 +6,12 @@
     <!--<ul class="nav-menu nav-center"> -->
     <ul class="nav-menu nav-vertical">
       <li>
-    <a href="#" class="nav-active">Decisions</a>
+    <a href="#">Substance abuse</a> 
+    <ul>
+    <li><a href="alanon1.php">Al-Anon</a></li>    
+</ul>
+</li>
+    <li><a href="#" class="nav-active">Decisions</a>
     <ul>
     <li><a href="decide2.php">Theory</a></li>
     <li><a href="decide1.php">Videos</a></li>
@@ -66,7 +71,7 @@
       
 
         <ul>
-
+        <li><a href="astro1.php">Astrology</a></li>
         <li><a href="drugs1.php">drugs</a></li>
         <li><a href="#">fusion</a>
 <ul>
