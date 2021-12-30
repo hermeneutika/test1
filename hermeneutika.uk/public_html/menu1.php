@@ -35,7 +35,7 @@
           <li><a href="#">Scriptures</a>
             <ul>
               <li><a href="rev1.php">Revelation</a></li>
-              <li><a href="#">Exekiel</a></li>
+              <li><a href="ezek1.php">Exekiel</a></li>
               <li><a href="#">Psalms</a></li>
             </ul>
           </li>
