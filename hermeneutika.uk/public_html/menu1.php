@@ -30,12 +30,13 @@
           <ul>
           <li><a href="#">interpretation by analog</a></li>
           <li><a href="lit1.php">literal interpretation</a></li>
+          <li><a href="inter1.php">Prophectic interpretation</a></li>
 </ul>
 </li>
           <li><a href="#">Scriptures</a>
             <ul>
               <li><a href="rev1.php">Revelation</a></li>
-              <li><a href="#">Exekiel</a></li>
+              <li><a href="ezek1.php">Exekiel</a></li>
               <li><a href="#">Psalms</a></li>
             </ul>
           </li>
@@ -113,7 +114,7 @@
 
           <li><a href="#">Biology</a>
           <ul>
-            <li><a href="#">PCR testing</a></li>
+            <li><a href="pcr1.php">PCR testing</a></li>
             <li><a href="#">Evolution</a></li>
             <li><a href="#">DNA</a></li>
             <li><a href="#">Research</a></li>
