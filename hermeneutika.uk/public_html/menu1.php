@@ -15,6 +15,7 @@
     <ul>
     <li><a href="decide2.php">Theory</a></li>
     <li><a href="decide1.php">Videos</a></li>
+    <li><a href="decide3.php">Critical decision making theory</a></li>
   
 </ul>
 </li>
