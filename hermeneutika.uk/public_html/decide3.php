@@ -19,7 +19,9 @@
       <ul>
    <li> <a href="decide4.php">critical decision making</a></li> 
    <li><a href="decide4.php">confirmation bias</a></li>
-    <ul>
+   <li><a href="decide5.php">cognitive bias</a></li>
+</ul>
+</ul>
 </li>
 </nav>   
 </body>
