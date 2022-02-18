@@ -23,6 +23,11 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
+          <li><a href="war1.php">spiritual warfare</a>
+          <ul>
+            <li><a href="war1-books.php">Warfare books</a></li>
+</ul>
+</li>
         <li><a href="theodicy1.php">Theodicy</a></li>
         <li><a href="display1.php">Bible display</a></li>
           <li><a href="#">Just war theory</a></li>
