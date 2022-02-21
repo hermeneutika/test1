@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="site.css" />
 </head>
 <body>
+<?php include ("conn.php"); ?> 
+<?php include ("menu1.php"); ?> 
 
 <?php include("php1.txt"); ?>
     

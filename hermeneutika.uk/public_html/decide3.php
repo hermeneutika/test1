@@ -11,11 +11,16 @@
 
 </head>
 <body>
+
+<?php include ("conn.php"); ?> 
+<?php include ("menu1.php"); ?> 
+
+<?php include("decide3.txt"); ?>
 <div class="container">
 
 <nav>
 <ul class="nav-menu nav-vertical"> 
-<li><a href="#" class="nav-active">Decisions</a>
+<!-- <li><a href="#" class="nav-active">Decisions</a> -->
       <ul>
    <li> <a href="decide4.php">critical decision making</a></li> 
    <li><a href="decide4.php">confirmation bias</a></li>
