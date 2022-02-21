@@ -11,6 +11,9 @@
     <title>Spiritual Warfare books</title>
 </head>
 <body>
-<p>Spiritual warfare books</p>  
+<?php include ("conn.php"); ?> 
+<?php include ("menu1.php"); ?> 
+<h1>Spiritual warfare books</h1>  
+<?php include ("war1.txt"); ?> 
 </body>
 </html>
