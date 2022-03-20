@@ -15,6 +15,7 @@
     <ul>
     <li><a href="decide2.php">Theory</a></li>
     <li><a href="decide1.php">Videos</a></li>
+    <li><a href="decide3.php">Critical decision making theory</a></li>
   
 </ul>
 </li>
@@ -22,6 +23,11 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
+          <li><a href="war1.php">spiritual warfare</a>
+          <ul>
+            <li><a href="war1-books.php">Warfare books</a></li>
+</ul>
+</li>
         <li><a href="theodicy1.php">Theodicy</a></li>
         <li><a href="display1.php">Bible display</a></li>
           <li><a href="#">Just war theory</a></li>
@@ -72,6 +78,7 @@
       
 
         <ul>
+        <li><a href="ipv6.php">IPV6</a></li>
         <li><a href="astro1.php">Astrology</a></li>
         <li><a href="drugs1.php">drugs</a></li>
         <li><a href="#">fusion</a>
