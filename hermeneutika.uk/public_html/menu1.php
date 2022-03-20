@@ -4,7 +4,8 @@
 
   <nav>
     <!--<ul class="nav-menu nav-center"> -->
-    <ul class="nav-menu nav-vertical">
+    <!--<ul class="nav-menu nav-vertical"> -->
+      <ul class="nav-menu nav-center">
       <li>
     <a href="#">Substance abuse</a> 
     <ul>
@@ -25,7 +26,7 @@
         <ul>
           <li><a href="war1.php">spiritual warfare</a>
           <ul>
-            <li><a href="war1-books.php">Warfare books</a></li>
+            <li><a href="war2-books.php">Warfare books</a></li>
 </ul>
 </li>
         <li><a href="theodicy1.php">Theodicy</a></li>
@@ -131,7 +132,7 @@
       </li>
       <li><a href="#">News</a>
     <ul>
-      <li><a href="#">Ukraine</a></li>
+      <li><a href="ukraine1-prettier.php">Ukraine</a></li>
       <li><a href="#">baldwin</a></li>
       <li><a href="#">Sudan</a></li>
       <li><a href="#">international law</a></li>
