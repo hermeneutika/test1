@@ -40,6 +40,11 @@
           <li><a href="inter1.php">Prophectic interpretation</a></li>
 </ul>
 </li>
+<li><a href="prophecy1.php">Prophecy</a>
+<ul>
+  <li><a href="ezek2.php">Israel and Ezekiel</a></li>
+</ul>
+</li>
           <li><a href="#">Scriptures</a>
             <ul>
               <li><a href="rev1.php">Revelation</a></li>
