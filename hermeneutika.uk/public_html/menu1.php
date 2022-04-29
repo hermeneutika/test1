@@ -1,24 +1,24 @@
 <body>
   <div class="container">
-  <h3>West is best.....hermeneutika's Home Pages</h3>
+  <h3>hermeneutika's Home Pages</h3>
 
   <nav>
     <!--<ul class="nav-menu nav-center"> -->
     <!--<ul class="nav-menu nav-vertical"> -->
       <ul class="nav-menu nav-center">
-        <li>
-          <a href="!">The West</a>
-          <ul>
-    <li><a href="west1.php">The West-the foundations of all "modern" societies</a></li>
-    <li><a href="west2.php">History-the forbidden discipline</a></li>
-    <li><a href="west3.html"> if the "blacks" can have BLM what can everyone else have?</a></li>
-  
-</ul>
-</li>
       <li>
+  
     <a href="#">Substance abuse</a> 
     <ul>
     <li><a href="alanon1.php">Al-Anon</a></li>    
+</ul>
+</li>
+<li><a href="map2.html" class="nav-active">Mind map of line</a>
+<ul>
+<li><a href="decide2.php">Theory</a></li>
+    <li><a href="decide1.php">Videos</a></li>
+    <li><a href="decide3.php">Critical decision making theory</a></li>
+  
 </ul>
 </li>
     <li><a href="#" class="nav-active">Decisions</a>

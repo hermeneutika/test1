@@ -13,6 +13,6 @@
 
 <?php include ("menu1.php"); ?> 
 <h1 style=text-align:center;>Michael David Falconer's CV</h1>
-
+<a href="cv2.html">The cv</a>
 </body>
 </html>
