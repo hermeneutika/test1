@@ -15,7 +15,7 @@
 </li>
 <li><a href="map2.html" class="nav-active">Mind map of line</a>
 <ul>
-<li><a href="decide2.php">Theory</a></li>
+<li><a href="line1.html">freemind</a></li>
     <li><a href="decide1.php">Videos</a></li>
     <li><a href="decide3.php">Critical decision making theory</a></li>
   
