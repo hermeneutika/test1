@@ -38,6 +38,7 @@
             <li><a href="war2-books.php">Warfare books</a></li>
 </ul>
 </li>
+        <li><a href="history1.php">History of the Bible</a></li>
         <li><a href="theodicy1.php">Theodicy</a></li>
         <li><a href="display1.php">Bible display</a></li>
           <li><a href="#">Just war theory</a></li>
