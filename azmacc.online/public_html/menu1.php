@@ -15,6 +15,13 @@
     <a href="si1.php">Simons stuff</a>
     <a href="derek1.php">Derek1</a>
     <a href="derek2.php">Derek2</a>
+    <a href="order-history.pdf">Order history</a>
+    <a href="simon-line-clear.pdf">Simon line clearance</a>
+    <a href="simon-var-data.pdf">Simon vari data</a>
+    <a href="simon-ejects.pdf">Simon ejects</a>
+    <a href="simon-samples.pdf">simon samples</a>
+    
+
     
 
 
