@@ -20,6 +20,9 @@
 
 <li><a href="pdf/daniel_wenham.pdf">Wenham on Daniel</a></li>
 <li><a href="pdf/daniel-stacey.pdf">Stacey (PHD) on Daniel</a></li>
+<li><a href="pdf/jerome-daniel.pdf">Jerome on Daniel</a></li>
+<li><a href="pdf/pusey-daniel.pdf">Pusey on Daniel</a></li>
+
 
 </body>
 </html>

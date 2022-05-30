@@ -45,6 +45,7 @@
           <li><a href="#">The Reformation</a></li>
           <li><a href="#">hermeneutics</a>
           <ul>
+          <li><a href="hist-interp.php">history of interpretation Stephen Neil</a></li>
           <li><a href="#">interpretation by analog</a></li>
           <li><a href="lit1.php">literal interpretation</a></li>
           <li><a href="inter1.php">Prophectic interpretation</a></li>
