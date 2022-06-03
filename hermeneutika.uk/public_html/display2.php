@@ -18,15 +18,17 @@ $book = $_POST['book'];
 $chapt = $_POST['chapt'];
 $verse = $_POST['verse'];
 echo "book=".$book ."chapter=".$chapt. "verse=".$verse;
-$sql = "select * from bible";
+$sql = "select * from bible where n =$book";
+
 $result = mysqli_query($conn, $sql);
 
 echo var_dump($result);
-/* while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { 
+ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { 
   while ($row = $result->fetch_assoc()) {
     echo $row['text'].'<br>'; 
 }
-*/
+ }
+
 ?>
 
 <h1>this is a test</h1>
