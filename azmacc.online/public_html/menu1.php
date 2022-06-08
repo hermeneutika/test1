@@ -8,11 +8,10 @@
     <!--<ul class="nav-menu nav-center"> -->
     <!--<ul class="nav-menu nav-vertical"> -->
       <ul class="nav-menu nav-vertical">
-      <li>
+      
   
     <a href="rotatea.php">induction all in sequence</a> 
     <a href="mes1.php">MES-all in sequence</a>
-    <a href="si1.php">Simons stuff</a>
     <a href="derek1.php">Derek1</a>
     <a href="derek2.php">Derek2</a>
     <a href="order-history.pdf">Order history</a>
@@ -20,14 +19,10 @@
     <a href="simon-var-data.pdf">Simon vari data</a>
     <a href="simon-ejects.pdf">Simon ejects</a>
     <a href="simon-samples.pdf">simon samples</a>
-    
+    <a href="FreeplaneFunctions.jpg">Mindmap</a>
 
     
 
-
-
-
-</li>
 </ul>
 </nav>
 </body>
