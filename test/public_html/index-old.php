@@ -33,7 +33,7 @@
 <?php include ("conn.php"); ?> 
 
 <?php 
-$search="wisdom";
+$search="God is love";
 echo $search;
 #$query="select * from "bible.text" where "text" LIKE "%wisdom%"";
 #$query="select * from bible";
@@ -50,7 +50,9 @@ while ($row = mysqli_fetch_assoc($result))
   echo "text="."$text"."book="."$n"."verse="."$verse";
 }
 ?>
-
-  
+<script>
+var temp = tinymce.get('textarea').save();
+console.log(temp);
+  </script>
 </body>
 </html>

@@ -19,7 +19,7 @@
     <a href="simon-var-data.pdf">Simon vari data</a>
     <a href="simon-ejects.pdf">Simon ejects</a>
     <a href="simon-samples.pdf">simon samples</a>
-    <a href="FreeplaneFunctions.jpg">Mindmap</a>
+    <a href="c2.jpg">Mindmap</a>
 
     
 
