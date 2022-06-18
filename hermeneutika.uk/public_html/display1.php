@@ -19,6 +19,8 @@
   <input type="text" id="chapt" name="chapt"><br>
   <label for="verse">verse:</label><br>
   <input type="text" id="verse" name="verse"><br>
+  <label for="comment">Comment</label><br>
+  <input type="text" id="comment" name="comment"><br>
 
 
   <input type="submit" value="Submit">
