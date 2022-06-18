@@ -102,6 +102,8 @@
 <ul>
 <li><a href="https://www.iter.org/">fusion website</a></li>
 <li><a href="#">engineering issues</a></li>
+<li><a href="https://orbitalmarine.com/o2/">tidal power</a></li>
+<li><a href="https://www.theguardian.com/environment/2022/jun/18/heat-wave-how-orkney-is-leading-a-tidal-power-revolution">Guardian article tidal</a></li>
 
 </ul>
 </li>

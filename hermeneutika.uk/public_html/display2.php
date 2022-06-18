@@ -44,7 +44,7 @@ $query="select * from bible where n like '$book%' and chapt='$chapt' and verse='
 $result = mysqli_query($conn, $query);
 $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 //printf ("%s (%s)\n", $row[0], $row["text"]);
-echo " ";
+echo " display2 =";
 echo "<br>";
 echo $row["text"];
 echo $row["full"];
