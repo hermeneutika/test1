@@ -25,16 +25,16 @@ $row = mysqli_fetch_array($result, MYSQLI_BOTH);
     echo "variable var1 =".$var1;
   
 
-$sql3="UPDATE michael SET text=CONCAT('$var1',' ','$mytextarea') where full=$bb";
-if ($conn->query($sql3) === TRUE) {
-  echo "Record updated successfully";
-} else {
-  echo "Error updating record: " . $conn->error;
-}
-
-#$sql="UPDATE michael SET text=CONCAT(?,?) WHERE FULL='1001001'";
-#$stmt = $conn->prepare($sql);
-#$stmt->bind_param("ss",$var1,$contents);
-#$stmt->execute();
+#$sql3="UPDATE michael SET text=CONCAT('$var1',' ','$mytextarea') where full=$bb";
+#if ($conn->query($sql3) === TRUE) {
+ # echo "Record updated successfully";
+#} else {
+ # echo "Error updating record: " . $conn->error;
+#}
+$space=" ";
+$sql="UPDATE michael SET text=CONCAT(?,?,?) WHERE FULL=$bb";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("sss",$var1,$space,$mytextarea);
+$stmt->execute();
 
 ?>
