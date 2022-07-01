@@ -16,7 +16,8 @@
         <li><a href="display1.php">Read a Bible verse</a></li>
         <li><a href="display1comment.php">Read a Bible verse and a commentary</a></li>
         <li><a href="deletemenu.php">Delete a commentary entry</a></li>
-        <li><a href="biblemenu.php">Add/append a commentary entry</a></li>
+       <li><a href="addcomment.php">Add/append a commentary entry</a></li>
+       <li><a href="amendcomment.php">Update or correct an entry</a></li>
   
 </body>
 </html>
