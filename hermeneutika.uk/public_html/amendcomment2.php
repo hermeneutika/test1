@@ -21,18 +21,6 @@
   });
   </script>
 -->
-<script type="text/javascript">
-  tinymce.init({
-selector: 'textarea',
-plugins: 'paste',
-menubar: 'edit',
-paste_as_text: 'true',
-toolbar: 'paste pastetext'
-
-
-
-  });
-  </script>
   <script type="text/javascript">
     tinyMCE.execInstanceCommand(‘textarea’,“mceInsertContent”,false,“Text to be inserted”);
     </script>
@@ -66,7 +54,29 @@ echo $row["full"];
 $search=$row["full"];
 echo "search=".$search;
 $_SESSION["biblefull"]=$search;
+
+
 ?>
+<?php echo "ver=".$amend; ?>
+<script type="text/javascript">
+   var php_var = "<?php echo $amend; ?>";
+  tinymce.init({
+selector: 'textarea',
+plugins: 'paste',
+menubar: 'edit',
+paste_as_text: 'true',
+toolbar: 'paste pastetext',
+setup: function (editor )
+{
+  editor.on('init',function (e)
+  {
+    editor.setContent(php_var);
+  });
+}
+});
+
+
+  </script>
 
 <form action="page2.php" method="post">
     <textarea name="myTextarea"></textarea>
