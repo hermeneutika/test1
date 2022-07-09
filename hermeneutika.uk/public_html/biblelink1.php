@@ -12,7 +12,7 @@
 <body>
 <?php include ("conn.php"); ?>
   <?php include ("menu1.php"); ?> 
-  <h1>Welcome to Bible search and display</h1>
+  <h1>Enter Bible link and commentary</h1>
 <form action="biblelink2.php" method="post">
 <label for="book">Bible Book:</label><br>
   <input type="text" id="book" name="book"><br>

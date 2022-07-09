@@ -19,6 +19,7 @@
        <li><a href="addcomment.php">Add/append a commentary entry</a></li>
        <li><a href="amendcomment.php">Update or correct an entry</a></li>
        <li><a href="showall.php">Show all entries for a commentary</a></li>
+       <li><a href="biblelink1.php">Add a Bible link</a></li>
   
 </body>
 </html>

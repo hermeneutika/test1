@@ -19,6 +19,21 @@ $chapt = $_POST['chapt'];
 $verse = $_POST['verse'];
 $comment=$_POST['comment'];
 
+# first i need o get the location of the verse this is so far the best way
+
+$query="select * from $comment where n like '$book%' and chapt='$chapt' and verse='$verse'";
+$result = mysqli_query($conn, $query);
+$row = mysqli_fetch_array($result, MYSQLI_BOTH);
+$amend=$row["text"];
+$locate=$row["full"];
+echo "amend= ".$amend;
+echo "full=".$locate;
+
+
+
+$sql="update $comment set text=CONCAT('$amend','$locate') where full=$locate";
+$result=$conn->query($sql);
+
 
 
 ?>
