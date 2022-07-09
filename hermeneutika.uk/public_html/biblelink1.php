@@ -24,6 +24,17 @@
   <input type="text" id="comment" name="comment"><br>
 
 
+  <label for="book">Bible link Book:</label><br>
+  <input type="text" id="book" name="linkbook"><br>
+  <label for="chapt">bible link chapter:</label><br>
+  <input type="text" id="chapt" name="linkchapt"><br>
+  <label for="verse">bible link verse:</label><br>
+  <input type="text" id="verse" name="linkverse"><br>
+  <label for="comment">bible link Comment</label><br>
+  <input type="text" id="comment" name="linkcomment"><br>
+
+
+
   <input type="submit" value="Submit">
 
   

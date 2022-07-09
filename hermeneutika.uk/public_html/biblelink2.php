@@ -19,7 +19,15 @@ $chapt = $_POST['chapt'];
 $verse = $_POST['verse'];
 $comment=$_POST['comment'];
 
+$linkbook=$_POST['linkbook'];
+$linkchapt=$_POST['linkchapt'];
+$linkverse=$_POST['linkverse'];
+$linkcomment=$_POST['linkcomment'];
+$linkfullold=$linkbook  . $linkchapt . $linkverse;
+echo "linkfullold=".$linkfullold;
+
 # first i need o get the location of the verse this is so far the best way
+# so this is where all the bible links need to be placed
 
 $query="select * from $comment where n like '$book%' and chapt='$chapt' and verse='$verse'";
 $result = mysqli_query($conn, $query);
@@ -29,9 +37,17 @@ $locate=$row["full"];
 echo "amend= ".$amend;
 echo "full=".$locate;
 
+#so now i need to get the actual links
+$query="select * from $comment where n like '$linkbook%' and chapt='$linkchapt' and verse='$linkverse'";
+$result = mysqli_query($conn, $query);
+$row= mysqli_fetch_array($result, MYSQLI_BOTH);
+$linkamend=$row["text"];
+$linklocate=$row["full"];
+echo "linkamend= ".$linkamend;
+echo "linkfull=".$linklocate;
 
 
-$sql="update $comment set text=CONCAT('$amend','$locate') where full=$locate";
+$sql="update $comment set text=CONCAT('$amend',' ','$linklocate') where full=$locate";
 $result=$conn->query($sql);
 
 
