@@ -96,6 +96,7 @@
       
 
         <ul>
+          <li><a href="warming1.php">So called Global warming</a></li>
           <li><a href="crit1.php">Independent critical thought?</a></li>
         <li><a href="ipv6.php">IPV6</a></li>
         <li><a href="astro1.php">Astrology</a></li>

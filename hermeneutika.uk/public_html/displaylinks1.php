@@ -20,10 +20,11 @@ $query="select * from $comment WHERE text !=\" \"";
 $result = mysqli_query($conn, $query);
 #while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { 
 #while ($row = $result->fetch_assoc()) {
-  $query="select text from bible where full= $link1";
-  $result=mysqli_query($conn,$query);
+  
 foreach ($result as $row)
 {
+  $query="select text from bible where full= $link1";
+  $result=mysqli_query($conn,$query);
   $link1=$row['text'];
   echo $row['text'].'<br>'; 
   echo "link1=".$link1;
