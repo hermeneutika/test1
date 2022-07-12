@@ -12,6 +12,16 @@
 <body>
 <?php include ("conn.php"); ?>
   <?php include ("menu1.php"); ?> 
+<?php
+  $book = $_POST['book'];
+$chapt = $_POST['chapt'];
+$verse = $_POST['verse'];
+$comment=$_POST['comment'];
+
+$linkfull=$book  . $chapt . $verse;
+echo "linkfull=".$linkfull;
   
+
+?>
 </body>
 </html>
