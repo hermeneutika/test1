@@ -31,13 +31,24 @@ $x=0;
 #print_r (explode(" ",$linkamend));
 
 $test=explode(" ",$linkamend);
-foreach ($test as $value)
+$lenofexplode=count($test);
+echo "length of array= ".$lenofexplode;
+echo "test= ".$test[$count];
+while ($count < $lenofexplode-1)
 {
-  $count++;
-  echo "$value <br>";
-  $temp=$test[1];
-  echo "temp = ".$temp;
   echo "count= ".$count;
+  $count++;
+$temp=$test[$count];
+echo "temp=".$temp;
+
+
+#foreach ($test as $value)
+#{
+ # $count++;
+ # echo "$value <br>";
+ # $temp=$test[$count];
+ # echo "temp = ".$temp;
+ # echo "count= ".$count;
   #so now we need the query
   $query="select * from bible where full=$temp";
   $result = mysqli_query($conn, $query);
@@ -47,6 +58,17 @@ $linkamend=$row["text"];
 $linklocate=$row["full"];
 echo "linkamend= ".$linkamend;
 echo "linkfull=".$linklocate;
+#if ($count<($lenofexplode-1))
+#{
+ # break;
+#}
+#}
+#echo "out of foreach loop";
+
+}
+#else
+{
+  echo "out of loop";
 }
 ?>
 </body>
