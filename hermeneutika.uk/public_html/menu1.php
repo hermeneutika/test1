@@ -8,16 +8,19 @@
       <ul class="nav-menu nav-center">
       <li>
   
-    <a href="#">Substance abuse</a> 
+    <li><a href="church1.php">Church</a>
+    
     <ul>
-    <li><a href="alanon1.php">Al-Anon</a></li>    
+    <li><a href="newwine1.php">new wine</a>
+    <li><a href="keswick1.php">Keswick</a>
 </ul>
 </li>
-<li><a href="map2.html" class="nav-active">Mind map of line</a>
+<li><a href="map2.html" class="nav-active">Misc</a>
 <ul>
 <li><a href="line1.html">freemind</a></li>
     <li><a href="decide1.php">Videos</a></li>
     <li><a href="decide3.php">Critical decision making theory</a></li>
+    <li><a href="alanon1.php">Al-Anon</a></li>    
   
 </ul>
 </li>
@@ -144,7 +147,7 @@
           <li><a href="#">Biology</a>
           <ul>
             <li><a href="pcr1.php">PCR testing</a></li>
-            <li><a href="#">Evolution</a></li>
+            <li><a href="evolution1.php">Evolution</a></li>
             <li><a href="#">DNA</a></li>
             <li><a href="#">Research</a></li>
 </ul>
