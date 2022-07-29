@@ -1,6 +1,6 @@
 <body>
   <div class="container">
-  <h3>hermeneutika's Home Pages</h3>
+  <h3>hermeneutika's Home Pages An attempt at a Christian worldview</h3>
 
   <nav>
     <!--<ul class="nav-menu nav-center"> -->
@@ -13,6 +13,14 @@
     <ul>
     <li><a href="newwine1.php">new wine</a>
     <li><a href="keswick1.php">Keswick</a>
+    <li><a href="hth1.php">HTH</a>
+    <ul>
+      <li><a href="sermons1.php">Sermons</a>
+    <ul>
+      <li><a href="list1.php">Tenants of the King</a>
+</ul>
+    </li>
+</ul>
 </ul>
 </li>
 <li><a href="map2.html" class="nav-active">Misc</a>
